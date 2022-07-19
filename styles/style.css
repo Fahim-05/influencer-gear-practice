@@ -1,0 +1,83 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* utilities */
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+/*------------------
+    top banner 
+-------------------*/
+
+.banner-title{
+    margin-left: 113px;
+    margin-top: 269px;
+}
+.banner-title h1{
+    font-size: 50px;
+}
+.banner-title a{
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 40px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    margin-left: 140px;
+    margin-right: 165px;
+    margin-top: 211px;
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    
+}
+
+/*--------------
+    Logos
+--------------*/
+.logos{
+    text-align: center;
+    margin: 0 130px;
+    margin-bottom: 100px;
+}
+.logos img{
+    padding: 0 20px;
+    
+}
+
+/* ------------------
+        Products
+--------------------*/
+.grid{
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;    
+    grid-column-gap: 30px;
+}
+.product{
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.product h3{
+    font-size: 20px;
+}
+.product p,i,span{
+    font-size: 12px;
+}
+.fa-star{
+    color: gold;
+}
